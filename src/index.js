@@ -7,3 +7,4 @@ const appendMarkup = new AppendMarkup({
     inputElement: '.js-search',
     countriesBlock: 'countries'
 })
+appendMarkup.init();
