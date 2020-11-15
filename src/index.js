@@ -1,9 +1,9 @@
 import '@pnotify/core/dist/PNotify.css';
 import '@pnotify/core/dist/BrightTheme.css';
 import './styles.css';
-import ApendMarkup from './js/appendMarkup';
+import AppendMarkup from './js/appendMarkup';
 
-const apendMarkup = new ApendMarkup({
+const appendMarkup = new AppendMarkup({
     inputElement: '.js-search',
     countriesBlock: 'countries'
 })
